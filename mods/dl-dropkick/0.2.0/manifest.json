@@ -1,0 +1,20 @@
+{
+  "id": "dl-dropkick",
+  "name": "DL 飞踹（替换踢击序列 3P+1P）",
+  "version": "0.2.0",
+  "notes": "pakchunk-998：替换 3P AS_CH_AV_3P_Generic_Kick_Standing（1.0333s/32key）与 1P AS_CH_AV_1P_1hHatchet_Kick（0.5667s/18key），均绑定游戏 SKEL_Zomb_Sha_01_Skeleton 并按游戏骨序改写骨骼映射表；同时提供 legacy .pak 与 IoStore .utoc/.ucas。触发沿用游戏踢击键，原蒙太奇通知/分支点不变。",
+  "files": [
+    {
+      "name": "pakchunk-998-Windows.pak",
+      "sha256": "E0229FB386BBCD5C546C9E3222C44F26180EC474F058A66B24291A98A17550AF"
+    },
+    {
+      "name": "pakchunk-998-Windows.utoc",
+      "sha256": "B6EADC10D76CD6F23C0AD10B6E46C4717718A98D7894C0ECF66C62D16A3ED219"
+    },
+    {
+      "name": "pakchunk-998-Windows.ucas",
+      "sha256": "5E00BCCA3A9C3C3E642055F9AD870BC9D79FDC03E555664F5408AC56530C762A"
+    }
+  ]
+}

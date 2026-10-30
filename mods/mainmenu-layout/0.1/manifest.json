@@ -1,0 +1,20 @@
+{
+  "id": "mainmenu-layout",
+  "name": "主菜单布局调整",
+  "version": "0.1",
+  "notes": "任务目标与难度同一行，部署按钮与跨平台／补位双行组合；合入旧 r19 的非设置区主菜单与角色页调整。12 个资产，保留当前 VB_Settings 布局。",
+  "files": [
+    {
+      "name": "pakchunk-997-Windows.utoc",
+      "sha256": "98C74CDEB414580713F89BAFA3D4F9C7C662E8AF342AFDBBE1F0F36FEF9C65D8"
+    },
+    {
+      "name": "pakchunk-997-Windows.ucas",
+      "sha256": "AB2425873C5B9FBD2C2AFE1DFAFE0E24FD51577D30388907F13DFAA1E8944D9E"
+    },
+    {
+      "name": "pakchunk-997-Windows.pak",
+      "sha256": "A09E916EAE1BCCB874F83591374866143B1061BA53E115541B5017AD65FB16C2"
+    }
+  ]
+}
