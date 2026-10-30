@@ -22,4 +22,6 @@ python -B tools/build_catalog.py
 
 该命令逐个核对文件 SHA-256 和 manifest，然后重建根目录的 `catalog.json`。提交新版前应运行它，确保下载清单与实际文件一致。
 
+推送后 `raw.githubusercontent.com` 的 CDN 缓存约 5 分钟内仍可能返回旧清单；管理器若仍显示已下线的 Mod，稍后重新「获取 Mod 清单」即可。
+
 这些 Mod 适配 NMRiH 2 **1.2.0 / build 512035**。使用前确认游戏版本匹配；请勿在游戏运行时启停 Mod。
