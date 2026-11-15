@@ -2,6 +2,32 @@
   "schema": 1,
   "mods": [
     {
+      "id": "dl1-mainmenu-scene",
+      "name": "消逝的光芒主菜单场景",
+      "version": "0.1",
+      "notes": "适配 NMRiH 2 1.2.1.0。替换主菜单城市背景，包含相机、8个角色站位、天空与分层雾；修复角色页预览全白，角色页背景模糊强度6。无需 UE4SS，可与主菜单布局调整同时使用。",
+      "files": [
+        {
+          "name": "pakchunk-998-Windows_P.pak",
+          "path": "mods/dl1-mainmenu-scene/0.1/pakchunk-998-Windows_P.pak",
+          "sha256": "ABF86784AE33076BF04B3967FD1980913EF8ABCF8666B1813990AEEB056082D2",
+          "size": 50671228
+        },
+        {
+          "name": "pakchunk-998-Windows_P.ucas",
+          "path": "mods/dl1-mainmenu-scene/0.1/pakchunk-998-Windows_P.ucas",
+          "sha256": "8311F5354DA9888689C0B23130AE4EAEC22D4A4F4E5D0F861F95874BFAED13D2",
+          "size": 103233365
+        },
+        {
+          "name": "pakchunk-998-Windows_P.utoc",
+          "path": "mods/dl1-mainmenu-scene/0.1/pakchunk-998-Windows_P.utoc",
+          "sha256": "B21955B9B3C92A3785781BC445357DA97D2CED6AB0DCAB9994456A58B89E9C71",
+          "size": 35261
+        }
+      ]
+    },
+    {
       "id": "mainmenu-layout",
       "name": "主菜单布局调整",
       "version": "0.1",
